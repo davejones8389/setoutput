@@ -25,3 +25,5 @@ jobs:
       id: echo-version
       run: |
         $GITHUB_OUTPUT
+
+    - run: echo "${{ steps.print-to-screen.outputs.name }}"
