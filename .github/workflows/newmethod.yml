@@ -24,4 +24,4 @@ jobs:
     - name: print-to-screen
       id: echo-version
       run: |
-        echo ${{ steps.set-version-number.GITHUB_OUTPUT }} 
+        echo ${{ GITHUB_OUTPUT }} 
