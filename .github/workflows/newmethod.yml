@@ -1,4 +1,4 @@
-name: 'test'
+name: 'newmethod'
 on: [workflow_dispatch]
 
 defaults:
@@ -8,7 +8,7 @@ defaults:
 jobs:
 
   rerun_dev_deployment:
-    name: 'test'
+    name: 'newmethod'
     runs-on: ubuntu-latest
     
     steps:
